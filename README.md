@@ -10,7 +10,7 @@ var x = getJson();
 ```
 ## xhr deprecated off standards (or change syntax to something like this) 
 ```javascript
-var xhttp = new XMLHTTPREQUEST;
+var xhttp = new XMLHttpRequest();
 xhttp.onrequestready(response => (
 response.json();
 ))
